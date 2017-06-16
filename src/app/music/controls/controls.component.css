@@ -1,0 +1,24 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls a   {
+  font-size: 30px;
+  cursor: pointer;
+  display: block;
+  padding: 10px 20px;
+  color: #FFF;
+  opacity: 0.5;
+  transition: 0.3s ease opacity;
+}
+
+.controls a:hover {
+  opacity: 1;
+}
+
+.playpause a {
+  font-size: 50px;
+  opacity: 1;
+}

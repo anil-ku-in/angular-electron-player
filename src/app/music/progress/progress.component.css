@@ -1,0 +1,19 @@
+.progress-container {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+}
+
+.current-time,
+.total-time {
+  width: 50px;
+  line-height: 1;
+  text-align: center;
+}
+
+.progress   {
+  flex-grow: 1;
+  height: 7px;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.25);
+}

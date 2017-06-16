@@ -1,0 +1,14 @@
+h2  {
+  font-size: 16px;
+  color: #EEE;
+  margin: 0;
+  text-align: center;
+  padding: 15px;
+}
+
+img   {
+  background-color: #FFF;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}

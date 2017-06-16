@@ -1,0 +1,20 @@
+<div class="music-player">
+
+  <music-info
+    [title]="title"
+    [artwork]="artwork">
+  </music-info>
+
+  <music-controls
+    (backward)="handlePreviousTrack()"
+    (forward)="handleNextTrack()"
+    (playpause)="handlePlayPause()"
+    [playing]="isPlaying">
+  </music-controls>
+
+  <music-progress
+    [elapsed]="elapsed"
+    [duration]="duration">
+  </music-progress>
+
+</div>

@@ -1,0 +1,17 @@
+<div class="progress-container">
+
+  <!-- elapsed time -->
+  <div class="current-time">{{ secondsToMinutes(elapsed) }}</div>
+
+  <!-- progress width bar -->
+  <div class="progress">
+    <div
+      class="progress-bar"
+      [ngStyle]="{ 'width.%': percentPlayed }">
+    </div>
+  </div>
+
+  <!-- duration time -->
+  <div class="total-time">{{ secondsToMinutes(duration) }}</div>
+
+</div>

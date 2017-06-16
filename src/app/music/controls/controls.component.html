@@ -1,0 +1,16 @@
+<div class="controls">
+
+  <div class="backward">
+    <a (click)="backward.emit()"><i class="fa fa-backward"></i></a>
+  </div>
+
+  <div class="playpause">
+    <a (click)="playpause.emit()" *ngIf="playing"><i class="fa fa-pause"></i></a>
+    <a (click)="playpause.emit()" *ngIf="!playing"><i class="fa fa-play"></i></a>
+  </div>
+
+  <div class="forward">
+    <a (click)="forward.emit()"><i class="fa fa-forward"></i></a>
+  </div>
+
+</div>
